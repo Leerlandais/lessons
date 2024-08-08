@@ -1,0 +1,58 @@
+/* A CHANGER - N'UTILISE PAS LE MEME BACKGROUND!!!! */
+
+body {
+background: hsla(197, 14%, 57%, 1);
+background: linear-gradient(-90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+background: -moz-linear-gradient(-90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+background: -webkit-linear-gradient(-90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+background-repeat: repeat-x;
+height: 200vh;
+}
+
+
+.reset {  /*  This is used to overwrite bootstrap settings (particularly for fieldset and legend) */
+    all: revert;
+  } 
+  
+  #englishButton {
+    background-image: url("../images/gb.svg");
+    background-size: cover;
+    width: 2vw;
+    height: 2vh;
+    margin: 0 0.5vw;
+  }
+  
+  #frenchButton {
+    background-image: url("../images/fr.svg");
+    background-size: cover;
+    width: 2vw;
+    height: 2vh;
+    margin: 0 0.5vw;
+  }
+  
+  .hiddenLink {
+    text-decoration: none;
+    color: initial;
+    cursor: text;
+  }
+
+  #contactWindow {
+  /* classic */    
+  background: linear-gradient(-90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 84%, 1) 100%);
+
+  /* green */
+    /*
+    background: linear-gradient(-90deg, hsla(157, 14%, 57%, 1) 0%, hsla(152, 17%, 94%, 1) 100%); 
+    */
+
+  /* blue  */ 
+    /*
+    background: linear-gradient(-90deg, hsla(217, 14%, 57%, 1) 0%, hsla(212, 17%, 94%, 1) 100%);
+    */
+    
+  /* red  */ 
+    /*
+   background: linear-gradient(-90deg, hsla(22, 14%, 57%, 1) 0%, hsla(17, 17%, 94%, 1) 100%);
+    */  
+
+  }
